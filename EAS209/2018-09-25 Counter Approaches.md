@@ -1,3 +1,7 @@
+---
+tags:
+  - counter approaches
+---
 # 2018-09-25 Counter Approaches
 
 - Counter *orientalist* knowledge about East Asia?
