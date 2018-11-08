@@ -14,5 +14,5 @@ Text is &copy; Ronny Chan, licensed under [CC-BY-SA-4.0 CA](https://creativecomm
 
 Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occasionally, diagrams are drawn with embedded SVG. The recommended way to view these notes are with Visual Studio Code with the following plugins.
 
-* [Markdown All-in-One](vscode:extension/yzhang.markdown-all-in-one) 
-* [Markdown + Math](vscode:extension/goessner.mdmath)
+* [Markdown All-in-One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 
+* [Markdown + Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
