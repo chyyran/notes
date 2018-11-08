@@ -8,4 +8,4 @@ These are my notes.
 - Use YAML front matter for tags.
 
 ## License
-Text is licensed under [CC-BY-SA-4.0 CA](https://creativecommons.org/licenses/by-sa/4.0/).
+Text is licensed under [CC-BY-SA-4.0 CA](https://creativecommons.org/licenses/by-sa/4.0/). Pull Requests are welcome (especially for CSC courses).
