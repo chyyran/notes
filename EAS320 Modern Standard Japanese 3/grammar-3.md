@@ -6,13 +6,12 @@ spellcheck: off
 
 The 漢字 during this grammatical unit were
 
-> 指　定　席　由　番　窓　側　路
 > 停　整　券　現　両　替　優　座　降
-
+> 未　末　若　晩　島　皿　血　助
 
 # まずは確認　複合助詞
 
-## 「～に＋つく」　
+## 「～につく」　
 The particle 「に」with auxillary verb 「つく」is used to mark subjects *regarding* another subject. In general it is used with the continuiative auxiallary 「つ」forming the composite particle 「～について」. 
 
 1. Yをする内容をX(対象)を表す。Yには言語活動、思考活動を表す言葉がくる。
@@ -152,10 +151,9 @@ The particle 「に」with auxillary verb 「つく」is used to mark subjects *
      > That painting was by Picasso
 
    - In passive constructions involving「によって」it is often the case that the subject of the sentence is inanimate.
-
-    > *example*
-    > 窓ガラスが何者かによって割れていた
-    > The window was broken due to some unknown person 
+     > *example*
+     > 窓ガラスが何者かによって割れていた
+     > The window was broken due to some unknown person 
 
 2. 「～にとって」と「～に対して」 
    When expressing some judgment or opinion in the capacity of some position, 「～にとって」is used. 

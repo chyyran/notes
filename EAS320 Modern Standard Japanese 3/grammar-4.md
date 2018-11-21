@@ -11,8 +11,9 @@ spellcheck: off
 
 The 漢字 during this grammatical unit were
 
-> 未　末　若　晩　島　皿　血　助
-> 準　備　営　閉　案　予　**約**
+> 準　備　営　閉　案　予　約
+> 煙　当　全　客　様　解　協　願
+
 
 # まずは確認　の・こと・もの
 

@@ -8,6 +8,9 @@ The 漢字 during this grammatical unit were
 
 > 非　常　階　段　箱　危　険　捨
 > 線　面　普　各　次　快　速　過　鉄
+> 指　定　席　由　番　窓　側　路
+
+
 
 # まずは確認　助詞
 

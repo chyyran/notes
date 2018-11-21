@@ -11,6 +11,7 @@ The 漢字 during this grammatical unit were
 > 駐　無　満　向　禁　関　係　断　
 > 横　押　式　信　号　確　認　飛
 
+
 # まずは確認　指示詞
 
 ## 現場指示 positional/directional indication
