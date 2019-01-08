@@ -36,4 +36,4 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * EAS209 Approaches to East Asia *(Lisa Yoneyama)*
 * EAS320 Modern Standard Japanese II *(Ikuko Komuro-Lee)*
   * *akachanpost.md* is &copy; Ronny Chan, All Rights Reserved.
-  * Grammar notes are a semi-translation of レベルアップ日本語文法 published by くろしお出版, used under fair use. Hence, these notes may not necessarily be licensable under CC-BY-SA. Proceed with caution. 
+  * Grammar notes are a semi-translation of レベルアップ日本語文法 published by くろしお出版, used under fair use. Hence, these notes may not necessarily be licensable under CC-BY-NC-SA. Proceed with caution. 
