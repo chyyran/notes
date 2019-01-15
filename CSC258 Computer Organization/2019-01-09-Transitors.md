@@ -1,3 +1,4 @@
+
 # Transistors
 
 ## Electricty
@@ -26,3 +27,4 @@ A **semiconductor** have properties of both insulators and conductors, and are m
 When you bring *p-type* material in contact with *n-type* material, the electrons at the surface of the *n-type* material are drawn to the holes of the *p-type*. The area where the two areas meet become neutral and is called a **depletion layer**. The doping atoms that remain creates an **electric field** in the region. 
 
 One field will be more positive (*p-type*), and one will be more negative (*n-type*), then electron will be pushed towards the positive field. Current caused by the field is called *drift*, and current caused by the hole is called **diffusion**
+
