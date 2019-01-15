@@ -34,6 +34,8 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * CSC236 Introduction to the Theory of Computation *(Daniel Heap)*
 * CSC258 Computer Organization *(Steve Engels)*
 * EAS209 Approaches to East Asia *(Lisa Yoneyama)*
-* EAS320 Modern Standard Japanese II *(Ikuko Komuro-Lee)*
+* EAS320 Modern Standard Japanese III *(Ikuko Komuro-Lee)*
   * *akachanpost.md* is &copy; Ronny Chan, All Rights Reserved.
   * Grammar notes are a semi-translation of レベルアップ日本語文法 published by くろしお出版, used under fair use. Hence, these notes may not necessarily be licensable under CC-BY-NC-SA. Proceed with caution. 
+* CSC363 Data Structures and Algorithms *(Jaiganesh Balasundaram and Sam Toueg)*
+* EAS330 Narrative Strategies in Modern Japanese Fiction *(Atsuko Sakaki)*
