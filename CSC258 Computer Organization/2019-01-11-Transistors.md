@@ -6,7 +6,7 @@ This field causes holes to flow back to the *p* section, and electrons flow back
 
 **Forward bias** is when a positive voltage is applied to *p* (shoving electrons into the *n*-type side), the depletion layer starts to slim and then it starts to conduct. When applied to the *n* side, the excess electrons fill up the holes, and the depletion region becomes wider, preventing carriers from passing. Some current exists but is small.
 
-**MOSFET** or Metal Oxide Semicondutor Field Effect Transistor. It sandwiches a p-type material between two *n* types.
+**MOSFET** or Metal Oxide Semiconductor Field Effect Transistor. It sandwiches a p-type material between two *n* types.
 
 ```
 |n| |n|

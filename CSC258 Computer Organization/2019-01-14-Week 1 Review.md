@@ -7,6 +7,10 @@ tags:
 
 # Week 1 Review
 
+> *Steve Engels* was away.
+> *Rabia Bakhteri Jahangir Bakhteri* substituted 
+
+
 * nMOS has p substrate with n pockets
   * apply voltage to gate
 * pMOS has n substrate with p pockets
@@ -65,7 +69,9 @@ Basic steps
 
 Spending more time on step 2. will result in a more efficient design.
 
-## Minterms and Minterms
+
+## Minterms and Manterms
+
 
 * An easier way to express circuit behavior
 * Assume standard truth table format, and list which input rows cause high output.
@@ -98,8 +104,3 @@ We can simplify this as
 Then we write \(Y = \Sigma({m_1, m_2, ...})\)
 
 Max terms are 
-
-
-## Karnaugh maps
-
-Karnaugh maps
