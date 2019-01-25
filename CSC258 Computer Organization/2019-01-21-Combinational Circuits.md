@@ -48,7 +48,3 @@ M -n-|   |
 ## Decoder
 
 Something that can translate outputs of one circuit to the input of another.
-
-## Don't care values.
-
-Consider a 7-seg ta

@@ -64,6 +64,8 @@ O    O
 Lifting up the right tree to show "tree-ness"
 
        O
+      /|
+     / |
     /  | 
    /  /|
   O  O O
@@ -97,6 +99,7 @@ A **min binomial heap** of \(n\) elements is a forest such that
 
 1. Each node of \(F_n\) stores one element
 2. Each tree of the forest is min-heap ordered.
+   * A node is less than or equal to its children.
 
 Consider 
 \(S = 10, 13, 1, 3, 8, 18, 7\)
@@ -105,9 +108,11 @@ We want to put \(S\) into \(F_7 = < B_2 B_1 B_0 >_2\)
 
 ```
 B_0
+
 10
 
 B_1
+
 1
 |
 13
@@ -125,18 +130,18 @@ The comparisons needed to build the heap is equal to the number of edges.
 
 * Take 2 numbers, and construct a tree \(B_1\) out of them. Then take 2 trees and compare the roots.
 
-A binary heap for \(n\) elements can be built in \(O(n)\) key comparisons.
+A **binary heap for \(n\) elements can be built in \(O(n)\) key comparisons.**
 
 ## Memory representation
 
 ```
-   O<==O
- ^/ ^
-/v  |
-O==>O
-|^
-v|
-O
+    O<==O
+  ^/ ^
+ /v  |
+ O==>O
+ |^
+ v|
+ O
 ```
 In each node, store a parent pointer (`|`), left child pointer (`|`), and a right sibling pointer (`=`).
 
@@ -171,12 +176,16 @@ BX
  ```
    O
   /|
- / |
-/ /|
-2 1 0
+ 0 1
+ |
+ 2
  ```
 
- ```
-/ /|
-2 10
+After delete
+
+```
+
+0 1
+|
+2
 ```
