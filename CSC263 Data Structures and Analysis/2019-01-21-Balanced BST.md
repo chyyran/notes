@@ -44,7 +44,7 @@ For a balanced tree, we want the balance factor to be close to 0.
 
 ## AVL Trees (Adelson-Velski-Landis)
 
-* is a BST (thus obeys BST property) for every every node is between -1 and 1 (inclusive). Hence we have BST can be 1, 0, and -1.
+* is a BST (thus obeys BST property) for every node is between -1 and 1 (inclusive). Hence we have BST can be 1, 0, and -1.
 
 * If the BST of a node is 1 then we have a right-heavy node. -1 is left heavy, 0 is balanced
 
