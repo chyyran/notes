@@ -93,4 +93,5 @@ R' -+->+ NAND +-+-->Q' |
 
 We connect 2 NAND gates to each other. the \(R'\) input sets output \(Q'\) to 1, setting \(Q\) to 0. Setting \(R'\) to 1 keeps the output value \(Q'\) at 1, which maintains both values.
 
-However, if we start off with \(S', R' = 1\) the \(S'\) input to 0 keeps the 
+<!-- 
+However, if we start off with \(S', R' = 1\) the \(S'\) input to 0 keeps the  -->
