@@ -60,7 +60,7 @@ These are all AVL trees.
 
 
               | Balance Factor
-   O          | 1
+   O          | -1
   /           |
  O            | 0
 
