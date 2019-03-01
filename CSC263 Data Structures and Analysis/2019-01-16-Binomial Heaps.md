@@ -148,4 +148,4 @@ Can we lower our bound for successive \(k\) inserts?
 > **Claim** If \(k > \log_2 n\), then the total cost is at most \(2k\) key comparisons, which is much smaller than \(k \log_2 n\).
 > **Proof** in *A2 Q4`*
 
-Thence the average cost per insert is \(2k / k \leq 2\) comparisons. Intuitively, in the average case, we will hit a 0 when merging heaps very within 2 comparisons.
+Thence the average cost per int is \(2k / k \leq 2\) comparisons. Intuitively, in the average case, we will hit a 0 when merging heaps very within 2 comparisons.
