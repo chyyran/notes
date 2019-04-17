@@ -56,7 +56,7 @@ Notice that this algorithm recurses left. It is an in-order traversal of the rec
 * Let \(Z\) be the sorted set of \(S\), Hence \(z_1, z_2, ..., < z_i < ... < z_j < ... < z_m\), all in \(S\). Note that we have not sorted the set \(S\), but \(Z\) is the elements of \(S\) in sorted order.  Let \(c_{ij}\) be 1 if \(z_i\) and \(z_j\) are compared by \(RSQ(S)\) and 0 otherwise.
 * Then the total number of comparisons \(C = \sum_{1 \leq i < j < m} c_{ij}\). Since \(C\) is a sum of random variables, we have 
   
-  \[E[C] = E[\sum_{i < j} c_{ij}] = \sum_{i < j} E[c_{ij}] = \cdot P(c_{ij} = 1) + 0 cdot P(c_{ij} = 0) = P(c_{ij} = 1) = P(z_i z_j \text{are compared})\]
+  \[E[C] = E[\sum_{i < j} c_{ij}] = \sum_{i < j} E[c_{ij}] = \cdot P(c_{ij} = 1) + 0 \cdot P(c_{ij} = 0) = P(c_{ij} = 1) = P(z_i z_j \text{are compared})\]
   
 * claim that this is equal to 2 / j-i + 1
 * \(E(C) = \sum_{1 \leq i < j < m} \frac{2}{j-i+1} = ... = 2m(1 + 1/2 + 1/3 + ... + 1/m)\) that sum is the harmonic series, which is close to to order \(\log n\)  

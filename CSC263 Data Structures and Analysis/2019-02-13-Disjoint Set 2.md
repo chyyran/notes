@@ -93,7 +93,7 @@ X1  X2
 
 However, the children of X still benefit! Their path becomes shorter.
 
-The initial find of an element becomes more expensive (by a constant factor), but the cost of subsequent finds become cheaper, and the average cost decreases! Notice that each find is still within \(O(f(x))\) where \(f(x)\) is the cost of a find.
+The initial find of an element becomes more expensive (by a constant factor), but the cost of subsequent finds become cheaperx, and the average cost decreases! Notice that each find is still within \(O(f(x))\) where \(f(x)\) is the cost of a find.
 
 * What is the cost of \(\sigma\) with both weighted-unions and path compression?
   * Without PC, we have cost \(O(m \log n)\)
