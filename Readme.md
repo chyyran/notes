@@ -39,3 +39,10 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
   * Grammar notes are a semi-translation of レベルアップ日本語文法 published by くろしお出版, used under fair use. Hence, these notes may not necessarily be licensable under CC-BY-NC-SA. Proceed with caution. 
 * CSC363 Data Structures and Algorithms *(Jaiganesh Balasundaram and Sam Toueg)*
 * EAS330 Narrative Strategies in Modern Japanese Fiction *(Atsuko Sakaki)*
+
+### Year Three
+* CSC324 Prinicples of Programming Languages *(David Liu)*
+* CSC384 Introduction to Artificial Intelligence *(Fahiem Bacchus)*
+* CSC369 Operating Systems *(Karen Reid)*
+* EAS263 Classical Japanese Literature *(Atsuko Sakaki)*
+* 
