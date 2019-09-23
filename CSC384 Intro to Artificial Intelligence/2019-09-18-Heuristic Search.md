@@ -49,4 +49,6 @@ Proof omitted (see slides)
 >   1. Every state has a finite number of successors (finite branch factor)
 >   2. Every action has a finite cost \(\geq \epsilon > 0\)
 >   3. \(h(n)\) is finite for every path \(n\) that can be extended to reach a goal state.
-> 
+
+
+## Constructing Heuristics
