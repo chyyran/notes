@@ -1,9 +1,11 @@
 # LIN102
 
 * **Professor:** Susana Bejar
-
-
-
+* **Course email:** lin102@utoronto.ca
+  * MWF morning will be when emails are checked
+* Midterm: Feb 25 during lecture
+* Homework (10%)
+  * Jan 23 
 ## Overview
 * Linguistics
   * Scientific study for the **human capacity** for language
@@ -51,3 +53,4 @@
 
 We will be studying linguistic theory, psycholinguistics and acquistion wrt syntax and morphology
 
+Ungrammatical sentences (prescriptively ungrammatical) are marked with an asterisk (*)
