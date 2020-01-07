@@ -33,6 +33,8 @@
      ```
   * Syntax is the input to both phonology and semantics and is the study of the mapping procedure itself
   * What are possible and impossible sentences in a language?   
+  * What are the building blocks and combinatorial principles that would predict all and only these sentences
+  * Elicitation interviews with native speakers
 
 * Branches
   * Phonology: Study of sound patterns in spoken language
