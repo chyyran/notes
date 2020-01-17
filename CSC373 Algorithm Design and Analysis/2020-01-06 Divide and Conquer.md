@@ -37,7 +37,7 @@ Recall the master theorem
 T(n) \in \begin{cases} \theta(n^d) & a < b^d \\ \theta(n^d \log n) & a = b^d \\ \theta(n^{\log_b a}) & a > b^d\end{cases}
 \]
 
-where \(b\) is how many parts we divide the problem into, \(a\) is the amount of recursive calls. \(d\) is the degree of the cost of splitting and combining if \(f(n)\) is polynomial.
+where \(b\) is how many parts we divide the problem into, \(a\) is the amount of recursive calls. \(d\) is the degree of the cost of splitting and combining if \(f(n)\) is polynomial. (That is \(f(n)\) is the cost of split and recombine).
 
 and \(T(n) = \begin{cases} k & n \leq B \\ aT(\frac{n}{b}) + cn^d) & n > B\end{cases}\)
 
