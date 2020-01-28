@@ -31,3 +31,6 @@ Quiz days where quizzes worth 2.5% for total of 10%.
 * **Introduction to Algorithms (CLRS)**
 * **Algorithm Design (KT)**
 * Algorithms (DPV)
+
+## Slides Password
+W20_373
