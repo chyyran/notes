@@ -101,4 +101,106 @@
         * Attaches PP modifier to "cookie"
       * Or where Franny ate (about where the eating happens)
         * Attaches PP modifier to VP "ate the cookie"
+  * Complements
+    * Phrases that are c-selected by heads and introduced in the tree as the sister of the head.
+    * Complements are obligatory to phrase structure
+    * For example, `devour` must have a DP complement
+      * `*Franny devoured`
+      * `*Franny [devoured [the cookie]]`
+    * The DP c-selects an NP
+      * `*Franny [devoured [the]]`
+      * `Franny [devoured [the cookie]]`
+    * C-selection in syntax is similar to c-selection in morphology in order to know what a head c-selects. This is part of its lexical entry.
+  * Constituency tests demonstrate that a complement always behaves as though it is inside the phrase, not outside.
+    * Franny will [devour the cookie]
+    * and Hassan will ~~[devour the cookie]~~ too
+    * * and Hassan will ~~[devour~~ the cookie] too
+  * DP c-selects NP, or nothing
+    * pronouns and proper names are simple DPs
+      * They have the same distribution that nouns that have a determiner, but can't have anything in them.
+  * NP c-select 
+    * PP, i.e. student **of linguistics**
+    * Clauses
+      * claim **that the earth is flat**
+    * Nothing!
+      * The norm is for nouns to not have complements
+  * Adjective can c-select complements
+    * Nothing
+    * PP
+      * afraid of the dark
+    * Clauses
+      * proud **that I finished the project on time**
+  * VPs are more complex
+    * Nothing
+    * 1 DP
+      * devoured the cookie
+    * 2 DPs
+      * gave Hasan the cookie
+    * 1 DP and 1 PP
+    * a clause
+  * Heads vary in very significant ways in terms of subcategories.
+    * Category of morpheme makes c-selection column completely redundant.
 
+## Clauses
+The biggest kind of phrase is a Clause
+* Clauses can be broken down into subject and predicate
+* Clauses can be introduced recursively
+* Clauses that appear inside other clauses, they are **subordinated clauses**
+  * Hassan [said [that Franny [devoured the cookie]]]
+* Clauses are constituents
+  * I already know **that reading week is in February**
+  * **That reading week is in February**, I already know.
+  * I already know **it**
+  * What I know is **that Reading Week is in February**
+  * I already know **that Reading Week is in February** and **the weather will be bad**
+* A single node that exhaustively dominates a clause, but what category is the dominating node?
+  * Complementizers are words we see when we introduce embedded clauses
+    * I know **that** Reading Week is in February
+    * I wonder **if** Reading Week is in February
+    * I planned **for** Reading Week is in February
+  * Looks like determiners, but have a different distribution
+  * We take a clause to be a CP (a complementizer phrase)
+    * We have evidence for this to be true
+      ````
+          VP
+         /   \
+        V     CP
+        |    /  \
+      think C   XP
+            |    |
+           that  X
+                 |
+             she left
+      ````  
+      * Complementizers are c-selected by the verbs that introduce them.
+        * Franny may think **that** she left
+        * *Franny may think **if** she left
+        * *Franny may think **whether** she left
+      * Complementizers indicate what type of clause they are building, e.g. statement or question
+        * We use notation whether or not a complementizer forms a question
+          * that C[-q]
+          * for C[-q]
+          * if C[+q]
+          * whether C
+      * Sometimes in English, complementizers are optional (null complementizer). We assume there is a complementizer even if we don't see it.
+      * The XP in the above introduces the subject of the sentence.
+        * The XP is a projection of a Tense category
+          * `Franny devoured the cookie` Past-tense
+          * `Franny devours the cookie` Non-past
+          * `Franny will devour the cookie` Future
+      * There are major distributional differences between tensed and tenseless clauses.
+      * Examples (in English, tenseless clauses are subordinate)
+        * Hassan persuaded **Franny to call the senator**
+        * Hassan persuades **Franny to call the senator**
+        * Hassan will persuade **Franny to call the senator**
+    * Complimentizers clearly select tensed/tenseless distinction
+      * `I heard that [Franny called the senator]`
+      * `*I heard that [Franny to call the senator]`
+      * `*I prefer for [Franny called the senator]`
+      * `I prefer for [Franny to call the senator]`
+    * C selects for [+/- t] for tense.
+    * So now we have a name for tense phrases, TP
+      * How do we fit a T head into the TP structure?
+      * T forms a constituent with VP to the exclusion of a subject.
+        * Clear to see with free morphemes in T (modals), for example **will**
+        * It forms an intermediate node T' (T-bar) to distinguish from the head and the TP
