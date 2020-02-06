@@ -57,7 +57,7 @@
           * Seems like it's outside the NP
         * `Hassan bought that [one]`
           * Seems like its inside the NP
-      * We adjoin the modifier as a sister to the XP node and lavel the new highest node as XP again.
+      * We adjoin the modifier as a sister to the XP node and label the new highest node as XP again.
         * ```
               NP
             /   \
