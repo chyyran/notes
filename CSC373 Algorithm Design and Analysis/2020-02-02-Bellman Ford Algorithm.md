@@ -69,5 +69,5 @@
       Forward direction is a direct corollary from **Claim 1**. If the graph has no negative weight cycles, there is a shortest \(s \to u\) path with \(n-1\) edges, so allowing \(n\) edges will not decrease the shortest path.
       The other direction is as such: If \(\forall u.L[i, u] = L[i-1, u]\), Then \(\forall u. L[i+1, u] = L[i, u]\). Essentially if at any iteration there is no more minimum path, then it will never change. If there was a negative weight cycle, then the weights would get smaller and smaller. 
     * We simply run it one more time, and check if any weight changed. If so, we have an negative weight cycle.
-    * We can easily find a negative weight 0 by adding a new node \(s*\), and attaching exiting edges to every node in \(G\) with weight 0. No new cycle of negative weight would have to be created, and we can determine if there any any negative weight cycles.
+    * We can easily find a negative weight cycle by adding a new node \(s*\), and attaching exiting edges to every node in \(G\) with weight 0. No new cycle of negative weight would have to be created, and we can determine if there any any negative weight cycles.
    
