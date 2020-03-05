@@ -71,3 +71,5 @@
     * We simply run it one more time, and check if any weight changed. If so, we have an negative weight cycle.
     * We can easily find a negative weight cycle by adding a new node \(s*\), and attaching exiting edges to every node in \(G\) with weight 0. No new cycle of negative weight would have to be created, and we can determine if there any any negative weight cycles.
    
+
+## Floyd-Warshall

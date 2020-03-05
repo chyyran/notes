@@ -14,5 +14,3 @@
   * In the case where we don't choose \(i\), no remaining capacity is used up (and no value is added).
   * In the case where we choose \(i\), we subtract remaining capacity, (and still consume the item), and also add the value.
 * This is "pseudopolynomial" on \(n\), the number of items, and \(S\) the size of the knapsack.
-* 
-## DP Guessing
