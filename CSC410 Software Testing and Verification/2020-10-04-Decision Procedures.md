@@ -127,7 +127,7 @@
           * all other literals should belong to decision levels that are not the current DL
         * UIP is a node (other than the conflict node), that is on all paths from the decision node to the conflict node
           * decision node is one such UIP
-        * First UIP is a UIP that is closest to the conflict node
+        * First UIP is a UIP that is **closest to the conflict node**
           * faster and backtracks to the lowest level
       * Why does this terminate?
         * correctness: any time there is a partial assignment we check if its SAT and returning it
@@ -135,3 +135,4 @@
           * thm: never the case that the solver enters decision level dl again with the same partial assignment
             * different dls are different times, but are forced to try a new partial assignment
             * whenever you enter an already seen decision level, it must be under a different partial assignment.
+        * 
