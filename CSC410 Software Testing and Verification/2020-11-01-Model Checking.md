@@ -38,7 +38,7 @@
   * Given a TS \(M\) for the model and a TS \(S\) for the spec
   * Is every behaviour of \(M\) has a behaviour of \(S\)?
     * If we know that the specification TS has properties we care about, we can attempt to show that the model TS has the same properties
-    * Formally \(L(M) \subsetseq L(S)\), the language of \(M\) is included in the language of \(S\)
+    * Formally \(L(M) \subseteq L(S)\), the language of \(M\) is included in the language of \(S\)
     * Language exclusion check, doable linear in \(M\), and EXPTIME in \(S\).
       * Need to determine if \(S\) is deterministic, which is EXPTIME
   * How can we build the second system that we know is well-behaved??

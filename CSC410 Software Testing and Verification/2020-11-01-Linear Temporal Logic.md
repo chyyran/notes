@@ -60,3 +60,55 @@
     * \(\sigma \models \Diamond \varphi\) iff \(\exists j \geq 0. \sigma[j...] \models \varphi\)
     * \(\sigma \models \square \varphi\) iff \(\forall j \geq 0. \sigma[j...] \models \varphi\)
   * LTL satisfaction relation \(\models\) is the smallest relation satisfying the above rules
+
+* Can we lift LTL from paths to states and transition systems?
+  * \(s \models \phi \iff \forall \pi : \pi[0] = s \implies \pi \models \phi\)
+    * Every path from the state \(s\) satisfies the LTL property \(\phi\)
+  * Generalise to transition systems
+    * \(TS \models \phi \iff \forall s \in I : s \models \phi\)
+    * If every initial state satisfies \(\phi\), then the TS satisfies the property
+  * Negation
+    * \(\pi \models \phi \iff \pi \not \models \neg \phi\) is true for paths, but not necessarily TS
+    * For example (`^v` indicates a loop)
+      ```
+        ^v            ^v
+        s1<-----s0--->s2
+        {a} 
+      ``` 
+      The path `s0 s1` statisfies \(\Diamond a\), but not `s0 s2`
+      However, \(TS \not \models \Diamond a\) because `s0 s2` and \(TS \not \models \neg \Diamond a\) because `s0 s1`
+  * Equality
+    * Two LTL formulas are equivalent if they statisfy the same set of paths
+    * \(\forall \pi: \pi models \phi_1 \iff \pi \models \phi_2\)
+    * LTL formulas are 1-1 with sets of paths, so if they are satisfied by the same set of paths they are the same
+      * formulas are uniquely identifiable with the sets of path that satisfy it
+* LTL formula laws
+  * duality
+    * \(\neg \bigcirc \varphi \equiv \bigcirc \neg \varphi\)
+      * "not next phi" == "next not phi"
+    * \(\neg \Diamond \varphi \equiv \square \neg \varphi\)
+      * "not eventually phi" == "always not phi"
+    * \(\neg \square \varphi \equiv \Diamond \neg \varphi\)
+      * "not always phi" == "eventually not phi"
+  * absorbtion
+    * \(\Diamond \square \Diamond \varphi \equiv \square \Diamond \varphi\)
+      * "eventually always eventually phi" == "always eventually phi"
+    * \(\square \Diamond \square \varphi \equiv \Diamond \square \varphi\)
+      * "always eventually always phi" == "eventually always phi"
+  * idempotency
+    * \(\Diamond \Diamond \varphi \equiv \Diamond \varphi\)
+    * \(\square \square \varphi \equiv \square \varphi\)
+    * \(\varphi \cup (\varphi \cup \psi) \equiv \varphi \cup \psi\)
+    * \((\varphi \cup \psi) \cup \psi \equiv \varphi \cup \psi\)
+  * distribution
+    * \(\bigcirc (\varphi \cup \psi) \equiv (\bigcirc \varphi) \cup (\bigcirc \psi)\)
+    * \(\Diamond(\varphi \vee \psi) \equiv \Diamond \varphi \vee \Diamond \psi\)
+    * \(\square(\varphi \wedge \psi) \equiv \square \varphi \wedge \square \psi\)
+  * expansion
+    * \(\varphi \cup \psi \equiv \psi \vee (\varphi \wedge \bigcirc (\varphi \cup \psi))\)
+      * Either \(\psi\) is already satisfied (then until is trivial satisfied), or we ensure \(\varphi\) is satisfied now, and we test for \(\psi\) at the next step in the path
+    * \(\Diamond \psi \equiv \psi \vee \bigcirc \Diamond \psi\)
+    * \(\square \psi \equiv \psi \wedge \bigcirc \square \psi\)
+    * The expansion law "defines" Until, i.e. Until is the **least** solution to the expansion law
+      * \(X = \psi \vee (\phi \wedge \bigcirc X)\)
+      * Until is the smallest set of paths that satisfies this equation as a constraint, but it has many solutions.
