@@ -57,3 +57,6 @@
       * After the next step of \(\sigma\) (which is a word of letters APs) satisfies \(\varphi\)
     * \(\sigma \models \varphi_1 \cup \varphi_2\) iff \(\exists j \geq 0. j[...] \models \varphi_2\) and \(\sigma[i...] \models \varphi_1\) for all \(0 \leq i < j\)
       * there is some point \(j\) in \(\sigma\) satisfies \(\varphi_2\) forever, and at all paths at a point \(i\) before \(j\) satisfies \(\varphi_1\)
+    * \(\sigma \models \Diamond \varphi\) iff \(\exists j \geq 0. \sigma[j...] \models \varphi\)
+    * \(\sigma \models \square \varphi\) iff \(\forall j \geq 0. \sigma[j...] \models \varphi\)
+  * LTL satisfaction relation \(\models\) is the smallest relation satisfying the above rules
