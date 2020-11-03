@@ -1,6 +1,6 @@
 # Notes
 
-These are my notes. They are mostly incomplete and may be inaccurate, and are for my own usage, but they're free to use.
+These are my notes. They are mostly incomplete and may be inaccurate, and are for my own usage, but they're free to use. Some of these notes are more organized, some of them are more stream-of-conciousness.
 
 ## Conventions
 
@@ -28,8 +28,8 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * EAS105 Modern East Asia *(Yiching Wu)*
 * MAT137 Calculus! *(Ivan Khatchourian)*
 * STA247 Probability with Computer Applications *(Karen H. Wong)*
-### Year Two
 
+### Year Two
 * CSC209 Software Tools and Systems Programming *(Michelle Craig)*
 * CSC236 Introduction to the Theory of Computation *(Daniel Heap)*
 * CSC258 Computer Organization *(Steve Engels)*
@@ -41,10 +41,16 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * EAS330 Narrative Strategies in Modern Japanese Fiction *(Atsuko Sakaki)*
 
 ### Year Three
-* CSC324 Prinicples of Programming Languages *(David Liu)*
+* CSC324 Principles of Programming Languages *(David Liu)*
 * CSC384 Introduction to Artificial Intelligence *(Fahiem Bacchus)*
 * CSC369 Operating Systems *(Karen Reid)*
 * EAS263 Classical Japanese Literature *(Atsuko Sakaki*)
 *  CSC373 Algorithm Design, Analysis & Complexity *(Sara Rahmati)*
 *  EAS365 Classical Japanese II *(Atsuko Sakaki)*
 *  LIN102 Introduction to Linguistics: Sentence Structure and Meaning *(Susana Béjar)*
+
+### Year Four
+* CSC410 Software Verification and Testing (*Azadeh Farzan*)
+* CSC485 Introduction to Computational Linguistics (*Gerald Penn*)
+* LIN101 Introduction to Linguistics: Sound Structure (*Peter Jurgec*)
+* EAS444 City, Body and Text in Modern Japanese Literature (*Atsuko Sakaki*)
