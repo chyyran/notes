@@ -26,13 +26,13 @@
 * \(\exists \bigcirc (\text{true} \cup (x = 1))\)
   * Until needs a quantifier! We can not apply next to a path formula in CTL.
 * Eventually
-  * \(\exists \diamond \Phi = \exists (\text{true} \cup \Phi)\)
-  * \(\forall \diamond \Phi = \forall (\text{true} \cup \Phi)\)
+  * \(\exists \Diamond \Phi = \exists (\text{true} \cup \Phi)\)
+  * \(\forall \Diamond \Phi = \forall (\text{true} \cup \Phi)\)
 * Always
-  * \(\exists \square \Phi = \neg \forall \diamond \neg \Phi\)   
+  * \(\exists \square \Phi = \neg \forall \Diamond \neg \Phi\)   
     * At least one path emanating from the current state that \(\Phi\) always holds on every state
     * "I will never find a path such that eventually all paths do not hold for \(\Phi\)
-  * \(\forall \square \Phi = \neg \exists \diamond \neg \Phi\)
+  * \(\forall \square \Phi = \neg \exists \Diamond \neg \Phi\)
     * On all paths emanating from the current state, \(\Phi\) holds for every state
     * "I will never find a path such that there is a path where \(\Phi\) eventually does not hold"
   * Be careful to flip the quantifier!

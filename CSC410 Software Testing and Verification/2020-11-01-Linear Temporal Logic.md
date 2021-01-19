@@ -45,10 +45,10 @@
 * Semantics
   * LTL is interpreted over paths
   * paths are infinite **words** labeled with a subset of the atomic propositions that are true at each **letter**
-  * satisfiability means one path evaluates to true
+  * satisfiability there exists one path evaluates to true
   * validity is all possible paths evaluate to true
   * paths go on forever so we can model both terminating and non-terminating systems
-  * \(\sigma\) is a path
+  * \(\sigma\) is a path, \(\varphi\) is an LTL formula
     * \(\sigma \models \text{true}\) is always satisfied vacuously, any state satisfies true
     * \(\sigma \models a\) iff \(a \in A_0\), that is \(A_0 \models a\)
     * \(\sigma \models \varphi_1 \wedge \varphi_2\) iff \(\sigma \models \varphi_1\) and \(\sigma \models \varphi_2\)
