@@ -45,12 +45,17 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * CSC384 Introduction to Artificial Intelligence *(Fahiem Bacchus)*
 * CSC369 Operating Systems *(Karen Reid)*
 * EAS263 Classical Japanese Literature *(Atsuko Sakaki*)
-*  CSC373 Algorithm Design, Analysis & Complexity *(Sara Rahmati)*
-*  EAS365 Classical Japanese II *(Atsuko Sakaki)*
-*  LIN102 Introduction to Linguistics: Sentence Structure and Meaning *(Susana Béjar)*
+* CSC373 Algorithm Design, Analysis & Complexity *(Sara Rahmati)*
+* EAS365 Classical Japanese II *(Atsuko Sakaki)*
+* LIN102 Introduction to Linguistics: Sentence Structure and Meaning *(Susana Béjar)*
 
 ### Year Four
 * CSC410 Software Verification and Testing (*Azadeh Farzan*)
 * CSC485 Introduction to Computational Linguistics (*Gerald Penn*)
 * LIN101 Introduction to Linguistics: Sound Structure (*Peter Jurgec*)
 * EAS444 City, Body and Text in Modern Japanese Literature (*Atsuko Sakaki*)
+* ENGC41 Video Games: Exploring the Virtual Narrative (*Sonja Nikkila*)
+* LIN241 Introduction to Semantics (*Guillame Thomas*)
+* ECE568 Computer Security (*Courtney Gibson*)
+* CSC488 Compilers & Interpreters (*Fan Long*)
+* EAS309 Modern Chinese Prose (*Johanna Liu*)
