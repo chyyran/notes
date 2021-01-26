@@ -20,3 +20,19 @@
     * Show every way to make its premises true also make conclusion true
 * Showing argument is not valid
   * Show that there is a way to make its conclusion false when all premises are true.
+* logically valid argument are valid in virtue of their form
+  * validity preserved by substitution of not keywords
+  * formal logic allows us to abstract away everything but the form of the argument
+* logic is the study of logical keywords (logical constants)
+* propositional logic (PL) is a formal system that deals only with one type of constants, truth-functional operators
+* coreresponds to the negation in natlangs, and a number of subordinating and coordinating operations, like and, or, if
+* we can learn more about natural language, properties of natlang words
+* try to understand whether "becing a logical word" is a property that is relevant to the grammar of natlands
+* ask whether languages vary in the way they implement such logical constants
+* PL only has two types of expressions
+  * symbols that represent atomic propositions
+  * logical operators on these propositions
+  * a proposition has either a true or false value
+  * a proposition is denoted by a formula
+  * formulae are atomic when they have no structure
+    * Chris is happy and Jess is sad <==> p ^ q
