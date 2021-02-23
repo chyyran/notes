@@ -22,7 +22,7 @@
     * relevant to the conversation
     * prominent
     * example
-      * walking several dogs
+      * walking several dog
       * one dog suddenly starts limping
       * 'the dog is hurt' 
         * the hurt dog is salient.
