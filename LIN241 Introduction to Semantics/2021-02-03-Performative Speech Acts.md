@@ -197,3 +197,10 @@
       * My **fucking** bike tire is flat again!
     * Epithets
       * Every politician advocating a proposal for reform says the **stupid** thing is worthwhile
+* Ways of making speech acts
+  * **querying** prepatory condition
+    * "Can you give me a ride to church tomorrow?"
+  * **stating** prepatory condition
+    * "You could help me wash the dishes"
+  * **querying** propositional 
+    * "Will you help me wash the dishes"
