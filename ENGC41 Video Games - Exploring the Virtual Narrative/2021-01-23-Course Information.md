@@ -2,4 +2,4 @@
 
 **Instructor:** Sonja Nikkila <sonja.nikkila@utoronto.ca>
 **Form of address:** Dr. Nikk
-**Office Hours**: T1500-1600, F1600-1700
+**Office Hours**: T1700-1800, F1600-1700
