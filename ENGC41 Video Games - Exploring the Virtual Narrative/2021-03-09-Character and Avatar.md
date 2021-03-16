@@ -114,3 +114,12 @@
   * will never capture all it means to be human.
   * where is it our work and where is it given to us by the text?
   * how are we influenced by our reading history, zeigeist? 
+
+
+* assumptions of how realism works
+  * realism and inertia
+  * weapon handling looks 'real' despite never having those weapons
+  * realism as a constructed, imagined space
+
+* avatar: identify as
+* character: identify with 
