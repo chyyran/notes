@@ -23,3 +23,4 @@
     * first interpretation has quantifiers in **surface scope**
     * second interpretation has quantifiers in **inverse scope**
   * a relation between a sentence and its interpretation, not of the quantifiers itself
+  * 

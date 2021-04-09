@@ -162,3 +162,6 @@
 * tail call elimination
   * replace call with jump if recursive call is in tail position
 * code hoisting
+  * if some expr is calculated on all paths leading **from** some point P in the CFG, and the expression satisfies the conditions from common subexprs, we can move the expression (hoist) to point P
+    * challenges:
+      * expensive to detect hoisting opportunities
