@@ -4,10 +4,10 @@
   * N (Nouns) dog, fish, expectation
   * D (Determiners) the, a, some, few
   * V (Verbs) run, walk, sing, wish
-  * T (Tense) to, can, may, could, must, will, have, be, is (copulas)
+  * T (Tense) infinitival to, can, may, could, must, will, have, be, is (copulas)
   * Adj (Adjective) red, tall, happy
   * Adv (Adverb) intentionally, quickly, loudly
-  * P (Preposition) in, on, at
+  * P (Preposition) in, on, at, from, of
   * Deg (Degrees) very, really
     * subcategories of determiners
     * good diagnostics for adverbs or adjectives (very quickly, really happy, too tall)
@@ -184,7 +184,7 @@ The distribution of some categories is sensitive to finer distinctions
 * TP -> {NP/CP} (T) VP
 * AdvP -> (AdvP) Adv
 * XP -> XP conj XP
-* NP -> (Det) (Adj+) N (PP+) (CP)
+* NP -> (Det) (AdjP+) N (PP+) (CP)
   * Notice that the N is obligatory
 * PP -> P (NP)
 * AdjP -> (AdvP) Adj

@@ -76,7 +76,7 @@
   * Lax vowels can only occur in **closed** syllables
   * ə can occur in open syllables but is classified as a lax vowel.
     * sofa [sowfə]
-* Tense vowels and dipthongs are always longer than lax vowels
+*** Tense vowels and dipthongs are always longer than lax vowels**
   * This is called **inherent length**
   * In narrow transcription, marked with a raised dot for monopthongs, and a cluster in dipthongs
 * **Context can cause lengthening**
