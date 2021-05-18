@@ -131,15 +131,3 @@
   * \(\alpha \to \alpha \text{conj} \alpha\) where \(\alpha\) is any X, X' or XP.
 * every phrase needs at least one bar level because the bar level needs to dominate the head
 * the specifier of a phrase needs to be the sister of a bar level
-## New PSRs
-* nominal
-  * N -> (D) N'
-  * N' -> AP N'
-  * N' -> N' PP
-  * N' -> N (PP)
-* prepositional
-  * PP -> P'
-  * P' -> {AdvP / PQual} P'
-    * No specifier
-  * P' -> P (NP)
-  * 
