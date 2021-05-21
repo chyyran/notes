@@ -140,6 +140,8 @@
   * Approximants are devoiced when they follow aspirated stops
   * ex:
     * play /plej/ [pʰl̥ej] vs splay /splej/ [splej]
+  * liquids also devoiced
+    * craft [kʰræft]
 * **Word-final devoicing**
   * **voiced obstruents** are **partially devoiced** in word-final position
   * written by doubling the final consonant, with the last one as devoiced
