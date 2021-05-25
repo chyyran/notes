@@ -12,7 +12,7 @@
   * Before a velar consonant, in Canadian english, /æ/ becomes higher like *bag* [bæ̝g] or *sang* [sæ̝ŋ], cf. *bat* [bæt]
 * Broad transcription / / includes all regular phonemic contrasts in Canadian English including
   * schwa in unstressed vowels
-  * vowel discintion before /ɹ/
+  * vowel distcintion before /ɹ/
   * primary stress
 * Narrow transcription []
   * length

@@ -57,7 +57,7 @@
   * Terry drove my car into a lake
     * Terry here is an agent (do-er)
   * Terry is afraid of syntacticians
-    * Terry is a experiener
+    * Terry is a experiencer
   * Syntactically Terry is both the subject
 * Agents
   * An initiator of an action, doer with high volianity
