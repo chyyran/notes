@@ -33,7 +33,7 @@
   * An NP that obligatorily gets its reference from another NP.
 * **C-command**
   * Node A C-commands node B if every node that dominates A also dominates B and neither A nor B dominate the other
-  * Informally: A node C-commands its siblings and their children nodes recursively
+  * Informally: A node C-commands its siblings and their children nodes recursively. it does not c-command its own children
   * Example:
     * ```
          XP

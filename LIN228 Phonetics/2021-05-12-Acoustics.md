@@ -142,10 +142,10 @@
     * actual spacing of the harmonics don't change
   * F1 (lowest formant) is determined by the resonating frequency of the **back cavity**
     * area behind where the tongue is the highest
-    * corresponds to vowel backness
+    * corresponds to vowel height
   * F2 is determined by the resonating frequency of the **front cavity**
     * area in front of where the tongue is the highest
-    * corresponds to vowel height
+    * corresponds to vowel backness
   * F1 and F2 give us the most information for distinguishing vowels
   * F1/F2 not multiples of F0 (fundamental frequency)
   * vocal tract shape determines resonance and creates the formants
