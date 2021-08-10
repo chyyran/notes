@@ -59,3 +59,6 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * ECE568 Computer Security (*Courtney Gibson*)
 * CSC488 Compilers & Interpreters (*Fan Long*)
 * EAS309 Modern Chinese Prose (*Johanna Liu*)
+* LIN232 Syntactic Patterns in Language (*Andrew Peters*)
+* LIN228 Phonetics (*Emily Blamire*)
+* EAS284 Modern Chinese Literature (*Jennifer Lau*)
