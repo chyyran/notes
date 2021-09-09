@@ -47,12 +47,11 @@
       ```
     * Y C-commands nothing
     * YP C-commands X, ZP, Z, AP, A
-    * X C-commandsZO, Z, AP, A
-    * ZP C-commands X, Z, AP, A
-      * ZP C-commands X (mutual/symmetric C-command)
+    * X C-commands ZP, Z, AP, A
+    * ZP C-commands X (mutual/symmetric C-command)
     * Z C-commands AP, A
       * Z asymetrically C-commands A
-    * AP C-commands AP
+    * AP C-commands Z
     * A C-commands nothing
 * Notice that in 1. the antecedent is Tuyaa and the anaphor is 'herself' (some node labels elided)
   * in 1., [.NP [.N Tuyaa]] c-commands [.VP saw [.NP [.N herself]] in her mirror]
