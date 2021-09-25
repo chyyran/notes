@@ -23,7 +23,7 @@
   * Can we model meaning as a function of words + syntax?
     * `F :: [Word] -> Syntax -> Context -> Meaning`
     * If we can find such finite `F` we have a theory of semantics
-      * Knowlege Representation of Language in Semantics
+      * Knowledge Representation of Language in Semantics
     * We need language to be able to separate parts of a thought that correspond to parts of a sentence
 * Representing syntactic structure
   * Consider the sentence [S [NP Chris [PredP [is happy]]]]
