@@ -89,14 +89,23 @@ for i in 1..n {
 }
 ```
 * What are our constants?
+  * Big cache analysis
   * \(m = 4n^2\)
     * If each matrix fits in fast memory, we only make \(3n^2\) memory references, and then \(n^2\) slowmem access to write back into `C`
-  * \(m = n^3 + 3n^2\) if not everything fits in fastmem
-    * Step 1 needs \(n\) slowmem access in an \(n\)-sized loop = \(n^2\) references
-    * Steps 2 and 4 need 1 memory references in an \(n^2\) sized loop = \(2 * n^2\) references
-    * Step 3 needs \(n\) slowmem access in \(n^2\) sized loop = \(n^3\) references
   * \(f = 2n^3\)
     * For each element of `A`, we take a row and multiply \(n\) elements in `B` = \(n^2\) multiplications
     * Add (fold) each element = \(n\)
     * \(n\) elements in `y` so \(2n^3\)
-  * \(q = f/m = O(n)\) potentially
+  * \(q = f/m = O(n)\) potentially for large cache
+  * Even if you assumed everything fit into cache for Matrix/Vector multiply your matrix will still be 2.
+  * Small cache analysis
+    * \(m = n^3 + 3n^2\) if not everything fits in fastmem
+      * Step 1 needs \(n\) slowmem access in an \(n\)-sized loop = \(n^2\) references
+      * Steps 2 and 4 need 1 memory references in an \(n^2\) sized loop = \(2 * n^2\) references
+      * Step 3 needs \(n\) slowmem access in \(n^2\) sized loop = \(n^3\) references
+        * `B` is being loaded \(n\) times, A is loaded once, and \(C\) is read once and written once.
+        * We need all the columns of B! (Cache line fits one row of the array)
+      * we can also use scope \(m = n * (n + n * (1 + n + 1))) = n^3 + 3n^2\)
+    * \(q\) still equal to 2 for this for large \(n\), so no improvement over matrix-vector multiply
+      * each column of `B` is one vector
+      * every time we compute C, we load B entirely again and again
