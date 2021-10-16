@@ -1,4 +1,4 @@
-# 2021-10-06
+# 2021-10-06 Mapping Techniques
 
 * Every step in the dependency tree is a sequential operation
   * How many sequential steps depends on how many levels, so if we have n leaves our tree is log(n)
@@ -63,5 +63,32 @@
     * solution is to
       * restructure the program to reorder access in a non-contentious manner
       * decentralize shared data to eliminate single point of contention
+        * gradually work towards a unit of work to avoid everyone writing to IO at the same time
+        * rather than all tasks writing to a single output task
   * overlapping computations with interactions
   * replicating data or computations
+* Overlap computations with interactions
+  * very common that one process has to idle to wait for another process to finish or an interaction to finish
+  * what if we can initiate the action before its needed?
+    * ensure that the interaction is ready when needed
+  * grab more tasks in advance, before current task is completed
+  * may be supported in software (compiler, OS) or hardware (prefetching, branch prediction)
+  * harder to implement with shared memory models (pthreads,  OpenMP), applies more to distributed and GPU architectures
+  * branch prediction
+    * if condition has a very complex condition to resolve
+    * we're going to predict that the branch is true based on profiling data
+    * grab all the true inistruction and start executing
+    * by the time the branch condition is resolved, if it resolves correctly then we have already done the computation
+    * if not, we just discard computations
+  * data prefetch/instruction prefetch
+* replicate data or computations
+  * reduce contention for shared data
+  * this will reduce interaction overhead
+  * beneficial if the shared data is accessed in a read only fashion
+    * shared-address space paradigm will cache local copies of the data
+    * message-passing paradigm will replicate data to eliminate data transfer overhead
+  * do extra computation amortized by reducing huge communication time
+  * disadvantages
+    * increase overall memory usage by keeping replicas
+    * if shared data is RW, we have to keep copies coherent
+      * coherency overhead may dwarf benefits of local access via replication
