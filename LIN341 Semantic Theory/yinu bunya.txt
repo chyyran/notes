@@ -1,0 +1,12 @@
+[S 
+    [NP Yinu bunya] 
+    [VP 
+        [V 
+            [V 
+                [V bugaa]
+                [Voice -dyi]
+            ]
+            [Tense -ng ] 
+        ] 
+    ] 
+]
