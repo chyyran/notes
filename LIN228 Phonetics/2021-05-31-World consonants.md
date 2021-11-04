@@ -50,7 +50,7 @@
       * most langs have either dental or alveolar, they pick one
         * lol not english
     * alveolar
-      * /t d n s z l/ mzade with tongue tip constrict with alveolar ridge
+      * /t d n s z l/ made with tongue tip constrict with alveolar ridge
       * siome langs contrast dental and alveolar places of articulation in stop series
       * in some cases one place of articulation often laminal and other is apical
         * apical - apex of tongue (tip)

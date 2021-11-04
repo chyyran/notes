@@ -78,7 +78,7 @@
     * Start with empty evaluation
     * extend it to all variables
     * Pseudocode: 
-    ```
+    ```haskell
     bool DPLL(N: ClauseSet, A: PartialEval) {
         if (forall c in N, c == true under A) => true -- finished.
         if (exists c in N, c == false under A) => false -- check for conflicting clause, triggers backtrack
