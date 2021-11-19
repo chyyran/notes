@@ -185,3 +185,36 @@
            * This means any bone in the domain is has the antecedent undefined.
            * Under weak Kleene, "Every dog chewed its bone" ends up presupposing that every individual in the domain of discourse owns a bone which is way too strong.
       2. Some dog chewed it's bone.  
+
+
+## Summary
+* Previously we said that a phrase 'the cat' is expressed \(\iota x. cat(x)\), where if there is no such unique cat, has the denotation \(\#_e\) (undefined).
+* A phrase 'the cat meowed' is translated \(meowed(\iota x. cat(x))\). If the inner term is undefined, then \(meowed\) returns \(\#\).
+* Informally, \(\llbracket \iota x. f(x) \rrbacket\) is the unique \(f\) individual, or \(\#_e\) if there is no such unique individual.
+* How does this imply presuppositions like 'Both students are happy'?
+  * 'Both students' presupposes that there are 2 exactly students
+  * Can we say \(\forall x. student(x) \to happy(x) \wedge |Student| = 2\)?
+    * We want to mark the presupposed term *as a presupposition*
+    * to do so we use the \(\partial\)  operator
+    * \(\forall x. student(x) \to happy(x) \wedge \partial. |Student| = 2\)
+    * If the inner term \(\sigma\) is false or undefined, then the expression \(\partial. \sigma\) is undefined. Otherwise it is true.
+  * Hence we can write things like 
+    * \(\langle\text{both}\rangle = \lambda f. \lambda g. \partial. |f| = 2 \wedge \forall x. f(x) \to g(x)\)
+    *  \(\langle\text{every}\rangle = \lambda f. \lambda g. \partial. \exists x. f(x) \wedge \forall x. f(x) \to g(x)\)
+       *  This presupposes the existence of at least one \(x\) with properly \(f\) to remove the vacuous interpretation
+
+## Pragmatic Presupposition
+* The semantic view is that presuppositions are conditions that must be true for a sentence to have a truth value
+  * Under the set of conditions that a sentence is interpreted under presuppositions must be true
+* The pragmatic view is that presuppositions are things that people do
+  * Speaker takes for granted the presuppositions. 
+  * e.g. 'Jess used to smoke' takes for granted that Jess smoked before.
+* Common ground is the set of presuppositions commonly believed by participants in a speech act
+  * \(\phi\) is in common ground if we all believe it, and we all believe that we all believe it.
+  * If for example \(\phi\) is 'the earth is flat', and the group you are talking to does so too, but everyone is too embarassed to admit it, it is **not** commong ground.
+* How does the pragmatic view relate to the semantic view?
+  * Bridge Principle (Stalnaker 2002)
+    * A truth denoting sentence S is assertable given a context set C only if \(\forall w \in C\) the denotation of \(S \in w\) either 0 or 1. 
+    * We are essentially trying to assert the truth of a given statement. The proposition must be taken as true by discourse participants and this belief must be transparent amongst the participants.
+    * If an assertion lacks a truth value there is no point in asserting it.
+    * If a sentence presupposes P then the speaker has a good reason to take the presupposition for granted, otherwise the assertion would risk being pointless.
