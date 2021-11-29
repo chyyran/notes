@@ -34,6 +34,7 @@
     * There is a default hypothesis that the list is ordered such that richer items are listed above less rich items
       * However there are situations where these two criteria are in conflict and the discussion is still ongoing
       * **Intrinsic/extrinsic ordering**
+  * The more highly specified a vocabulary item the more restricted its distribution
 * Underspecification
   * Insertion contexts can be underspecified
   * This can result in the same form being a suitable match for multiple environments

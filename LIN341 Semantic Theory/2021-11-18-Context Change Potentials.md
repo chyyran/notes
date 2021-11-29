@@ -1,4 +1,4 @@
-# 2021-11-18 Dynamic Semantics
+# 2021-11-18 Context Change Potentials
 * File Change Semantics is similar to Discourse Representational Theory
 * Presuppositions introduce truth-value gaps
   * If we know the presupposition is false it is hard to assign a truth value 
