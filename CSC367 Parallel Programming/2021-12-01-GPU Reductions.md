@@ -58,3 +58,13 @@
   * we need `volatile` to ensure correctness to avoid register loading
 * impl 6: complete unrolling
   * use templates to unroll up all the way
+* impl 7
+  * can spawn off smaller blocksizes and use a reduction
+  * rely on scheduler to hide latency
+  * spawn off more threads than cores
+  * don't want warp scheudler to be overwhelmed
+  * brents theorem
+    * if there is work bigger than # threads than supported what is the upper bound?
+* 8-10
+  * warp shuffle
+  * allows a thread to directly read a register from another thread
