@@ -62,3 +62,12 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * LIN232 Syntactic Patterns in Language (*Andrew Peters*)
 * LIN228 Phonetics (*Emily Blamire*)
 * EAS284 Modern Chinese Literature (*Jennifer Lau*)
+
+### Year Five
+* CSC367 Parallel Programming (*Maryam Mehri Dehnavi*)
+* LIN333 Morphological Patterns (*Susana Behar*)
+* LIN341 Semantic Theory (*Guillame Thomas*)
+* EAS408 Modern Taiwanese Literature (*Jennifer Lau*)
+* EAS489 Asian Media Studies: Japanese Video Games - Media, History, Utopia (*Alexandre Paquet*)
+* EAS410 Modern Standard Korean IV (*Yujeong Choi*)
+* JAL328 Writing Systems (*Kiranpreet Nara*)
