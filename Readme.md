@@ -65,9 +65,10 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 
 ### Year Five
 * CSC367 Parallel Programming (*Maryam Mehri Dehnavi*)
-* LIN333 Morphological Patterns (*Susana Behar*)
+* LIN333 Morphological Patterns (*Susana Béhar*)
 * LIN341 Semantic Theory (*Guillame Thomas*)
 * EAS408 Modern Taiwanese Literature (*Jennifer Lau*)
 * EAS489 Asian Media Studies: Japanese Video Games - Media, History, Utopia (*Alexandre Paquet*)
 * EAS410 Modern Standard Korean IV (*Yujeong Choi*)
+* EAS358 Classical Chinese I (*Graham Sanders*)
 * JAL328 Writing Systems (*Kiranpreet Nara*)
