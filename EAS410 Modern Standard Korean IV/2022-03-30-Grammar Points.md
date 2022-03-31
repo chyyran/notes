@@ -125,7 +125,15 @@
 * Action/response clause is in past tense
 * jp: ～だと言うので、～だと言うことなので
 * Examples of use:
-  * 
+  * 승규가 요즘 스트레스를 많이 받는다기에 같이 노래방에 갔어요
+    * (I heard that) Seunggyu was really stressed out lately so we went to karaoke.
+    * スンギュさんは最近ストレスをたくさんたまっ**たと言うので**一緒にカラオケに行った。
+  * 네가 바쁘다기에 도와주러 왔어.
+    * (I heard) you were sick so I came to help.
+    * 病気が悪かったと言うので、助けに来た。
+  * 친구가 한국으로 돌아왔다기에 그 친구를 보러 갔다 왔어요.
+    * (I heard) my friend went back to Korea so I came to visit.
+    * 友達が韓国に帰ったと言うことでその友達を会いに行ってきた。
 ## ~ (으)ㄴ/는/ㄹ 돗이
 * Indicates that matrix and embedded clause are almost the same in meaning
 * Overt marker of simile
@@ -142,10 +150,57 @@
     * まるで約束のようで皆は一気に椅子から立ち上がった。
   * 비가 한바탕 올 듯이 하늘이 까매졌다.
     * 雨は一気に降る様に空（雲）は暗くなった。
-## ~ 는지
 ## ~ 었/았더라면
+* Used for expressing regret or guilt about something in the past.
+* "If I had X ..., I would have ... Y"
+* jp: ～していたとしたら、～だったとしたら、～だったならば
+* Example of use
+  * 집에서 늦게 나오지 **않았더라면** 버스를 놓치지 않았을 거예요.
+    * If I hadn't left the house late, I wouldn't have missed the bus.
+    * 家から遅く出なかったとしたら、バスに乗り遅れなかっただろう。
+  * 늦게 일어나지 **않았더라면** 수업 시간에 지각하지 않았을 거예요.
+    * If I hadn't woken up late, I wouldn't have been late for class.
+    * 寝坊しなかったとしたら、授業に遅刻しなかっただろう。
+  * 공부 열심히 **했더라면** 시험을 잘 봤을 거예요
+    * If I had studied hard for the exam, I would have gotten a good mark.
+    * 真面目に勉強していたとしたら、試験をよく受けただろう。
 ## ~ 었/았다가
-## ~ 게 마련이다
+* Remember that ~ 다가 indicates a shift from one action to another
+  * 밤에 자**다가** 일어나서 물을 마셨어요
+    * I was sleeping in bed, **then** I woke up and drank some water.
+    * ベッドに寝**ていて**、起きて水を飲んだ。
+* 었/았다가 **strongly implies the completion of the former action**
+* Strong indication of an **unexpected consequence** after having done something
+* jp: ～したが、～したら、～してから
+* Examples of use
+  * 시내에 나갔다가 차가 밀려서 고생했어요
+    * I went downtown, (when I came back and no longer downtown) there was a traffic jam so I'm very tired.
+    * 市内に行って来**たが**道が混んでて苦労した。
+  * 상한 음식을 먹었다가 배탈이 났어요.
+    * I ate some raw food and my stomach hurts. 
+    * 生物を食ったが腹が痛かった。
+  * 괜히 아는 척 했다가 창피만 당했어요.
+    * I pretended to know but only got embarassed.
+    * 無駄に知ってるふりを**したが**、恥しかもらえた。
+      * This translation is a little weird to illustrate 창피만 당했어요.
+      * 無駄に知ってるふりを**したが**、恥ずかしかった。
+## ~ 게 (기) 마련이다
+* When something is expected or bound to be a certain way, or that something is most natural to be a certain way.
+* "It's expected that../That's the way it is.."
+* Commonly used in proverbs or idiomatic sayings
+* Commonly used when talking about rules in general life.
+* Both 기 and 게 are accepted.
+* jp: ～するものだ、当然だ、決まっている
+* Examples of use:
+  * 금요일에는 교통이 복잡하게 마련이다.
+    * When it's Friday, there's (naturally) a lot of traffic.
+    * 金曜日には道が混んでて当然だ。
+  * 눈에서 멀어지면 마음에서도 멀어지게 마련이다.
+    * Out of sight, out of mind.
+    * 目から遠ざかれば、こころにも遠ざかるものだ。
+  * 성공이 있으면 실패도 있기 마련이에요
+    * Where there is success, there is also failure.
+    * 成功があれば失敗もあるものだ。
 ## ~ (으)ㄹ 뻔하(했)다
 * Used when the event described almost happens. 
 * Collocated with 
@@ -160,8 +215,80 @@
   * 하마터면 돌에 걸려서 떨어질뻔했어요.
     * I almost tripped on a stone and fell.
     * 危なく石につまずいて転ぶところだった。
-## ~ 었/았던 거같다
+## ~ 었/았던 것같다
+* Used when recalling an unclear memory about the past
+* Supposition about a past situation.
+* jp: ～ようだ、～そうだ、〜みたいだ、～と思う
+* Examples of Use:
+  * 내 기억으로는 이 근처에 학교가 있었던 것 같다
+    * In my memories, I think there used to be a school around here.
+    * 記憶ではこの辺に学校があったようだ。・あったはず
+  * 학생 때가 좋았던 거 같다. 
+    * My school days were enjoyable. 
+    * 学生だったときは良さそうだ。
+  * 이 기사를 언제 한 번 읽었던 것 같다
+    * I think I read this article once before.
+    * この記事を一度読んだことあるみたい。
 ## ~ 도록
+* Used to express extend or degree of an action 
+* jp: ほど
+* Examples of use
+  * 목이 아프도록 노래를 불렀어요.
+    * I sang until my throat hurted.
+    * 喉が痛いほど歌を歌いました。
+  * 우리는 발이 아프도록 걸어다녔어요.
+    * We walked until our feet hurt.
+    * 足が痛いほど歩き回った
+  * 바나나를 질리도록 먹었어요.
+    * バナナを飽きるほど食べました。
 ## ~ 기에는
+* Combination of nominalizer -기, and -에는 ("to, for")
+* "for doing A" or "to do A."
+* jp: ～するには、～するのは
+* Example of use
+  * 가기에는 너무 멀다
+    * (It is) too far away to go
+    * 行くのは遠すぎる。
+  * 그 사람은 학생이라고 하기에는 너무 나이가 많아요.
+    * That person is too old to be called a student
+    * あの人は学生というのは年齢が多すぎる。
 ## ~ 던데요
+* Used to invoke speaker's past experience as background information
+* The speaker does not commit to the truth
+* Equivalent to 더라고요
+* 'I saw X...', 'I experienced X...'
+* jp: ～たのに、～ていたので、～たけれど、～だったが、～していたけれど、～だそうだけど
+* Examples of use
+  * 시험이 생각보다 어렵**던데요**
+    * The test was easier than I expected.
+    * 試験は思ったよりやさし**かったけど**。
+  * 유리 씨의 남자친구는 태국 사람이던데요
+    * (I think) Yuri's　boyfriend was Thai.
+    * ゆりさんの彼氏はタイ人だそうだけど
+  * 지난 번에 보니까 수빈이 아파트가 넓던데
+    * Last time I saw, Subin's apartment was pretty big.
+    * 前見たけど、スビンさんのアパートはひろかったそう。
 ## ~ ㄹ 뿐하다
+* Used when only one specific action has been done and not any more.
+* "Just X"
+* The action done is small, and not a big action.
+* jp: ～しただけだ。
+  * 뿐: だけ
+* Examples of use
+  * 머리만 조금 아플 뿐이니까 걱정하지 마세요.
+    * My head only hurts a little, please don't worry about it.
+    * 頭がちょっとだけ痛くて、気にしないでください。
+  * 소주 한 잔 마셨을 뿐인데 취하네요.
+    * I'm drunk after only one bottle of Soju.
+    * ソジュ一本だけ飲んでて酔ってるね。
+## ~ 는지
+* Suppositive, speculative or uncertain mindset when used with a declarative sentence
+* 'Whether or not'
+* jp: ～だろうか、～のか
+* Examples of use
+  * 요즘 바쁜지 저한테도 연락이 없네요.
+    * Lately (he)'s probably busy, I haven't received any calls from him.
+    * 最近忙しいのかって俺にも連絡がない。
+  * 아이들이 오늘은 일찍 자는지 조용하네요.
+    * The kids probably went to bed early today so it's quiet.
+    * 子供たちは今日早く寝たのか静かだね。
