@@ -72,3 +72,4 @@ Notes are in Markdown with embedded KaTeX math typesetting using brackets. Occas
 * EAS410 Modern Standard Korean IV (*Yujeong Choi*)
 * EAS358 Classical Chinese I (*Graham Sanders*)
 * JAL328 Writing Systems (*Kiranpreet Nara*)
+* LIN331 Syntactic Theory (*Susana Béhar*)
